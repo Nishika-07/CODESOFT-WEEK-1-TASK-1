@@ -1,0 +1,207 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #1c0236;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color: #0dc9c0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #00bfff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #ddd;
+  flex-wrap: wrap;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+
+.skill-tags li {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.about {
+  padding: 40px 60px;
+  background: #fff;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+.btn {
+  background: #00bfff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.skills li {
+  background: #eee;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.projects .project {
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.resume {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.resume h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.resume-btn {
+  margin-top: 10px;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background-color: #ddd;
+  position: relative;
+}
+
+.hero-left {
+  flex: 1;
+  padding-left: 80px;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+
+.skill-tags li {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* 📸 Photo iframe */
+.hero-photo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.photo-frame {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+
